@@ -1,0 +1,73 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    @@include("partials/head.html", {
+    "pageTitle": "Mao Li"
+    })
+  </head>
+  <body>
+
+    <!-- MODALS
+    ================================================== -->
+    @@include("partials/modals.html")
+
+    <!-- NAVBAR
+    ================================================== -->
+    @@include("partials/navbar.html", {
+    "classList": "navbar-dark",
+    "type": "boxed"
+    })
+
+    <!-- WELCOME
+    ================================================== -->
+    <section data-jarallax data-speed=".8" class="pt-12 pt-md-14 pb-12 pb-md-15 overlay overlay-black overlay-60 bg-cover jarallax" style="margin-top: -83px; background-image: url(assets/img/covers/cover-3.jpg);">
+      <div class="container">
+        <div class="row justify-content-center">
+          <div class="col-12 col-md-10 col-lg-7 text-center">
+
+            <!-- Headin -->
+            <h1 class="display-1 font-weight-bold text-white">
+              I'm Mao Li.
+            </h1>
+
+            <!-- Text -->
+            <p class="lead text-white-75 mb-8">
+              I'm a professionally trained <span class="text-white">software developer</span> and <span class="text-white">interdisciplinary explorer</span>. 
+              I believe the power of computer science in solving challenges across disciplines.
+            </p>
+
+            <!-- Buttons -->
+            <div class="text-center">
+              <a href="#!" class="btn btn-primary-soft shadow lift text-white">
+                Download Resume
+              </a>
+              <a href="#!" class="btn btn-secondary-soft lift text-white">
+                About Me
+              </a>
+            </div>
+
+          </div>
+        </div> <!-- / .row -->
+      </div> <!-- / .container -->
+    </section>
+
+    <!-- SHAPE
+    ================================================== -->
+    <div class="position-relative">
+      <div class="shape shape-bottom shape-fluid-x svg-shim text-light">
+        @@include("assets/img/shapes/curves/curve-1.svg")
+      </div>
+    </div>
+
+    <!-- FOOTER
+    ================================================== -->
+    @@include("partials/footer.html", {
+    "classList": "bg-gray-200"
+    })
+
+    <!-- JAVASCRIPT
+    ================================================== -->
+    @@include("partials/scripts.html")
+
+  </body>
+</html>

@@ -20,3 +20,17 @@ However, after careful consideration, I finally settled on Bootstrap 4, even in 
 - EASY: I'm not a frontend designer. Bootstrap makes everything simple and straightforward, while also allowing full customization. 
 
 As in two years ago, I will use AWS S3 and Cloudfront to deploy my website. If in the future I decide to add more advanced functionalities that require complex routing, I might switch to use Node.js or Flask as my backend server. 
+
+## Development
+
+I used `gulp` to automate the build process and `npm` to manage `gulp` and other javascript library dependencies. `gulp` also enables me to use HTML partials as resusable components. 
+```
+$ npm install
+$ gulp
+```
+
+To build the production files, run the following:
+```
+$ gulp build
+```
+The production files will be in the `dist/` folder. 
