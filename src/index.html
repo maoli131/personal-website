@@ -14,13 +14,13 @@
     <!-- NAVBAR
     ================================================== -->
     @@include("partials/navbar.html", {
-    "classList": "navbar-dark",
+    "classList": "navbar-dark navbar-togglable fixed-top",
     "type": "boxed"
     })
 
     <!-- WELCOME
     ================================================== -->
-    <section data-jarallax data-speed=".8" class="pt-12 pt-md-14 pb-12 pb-md-15 overlay overlay-black overlay-60 bg-cover jarallax" style="margin-top: -83px; background-image: url(assets/img/covers/cover-19.jpg);">
+    <section data-jarallax data-speed=".8" class="pt-14 pt-md-16 pb-12 pb-md-15 overlay overlay-black overlay-60 bg-cover jarallax" style="margin-top: -83px; background-image: url(assets/img/covers/cover-18.jpg);">
       <div class="container">
         <div class="row justify-content-center">
           <div class="col-12 col-md-10 col-lg-7 text-center">
@@ -41,8 +41,8 @@
               <a href="#!" class="btn btn-primary shadow lift text-white">
                 View Resume
               </a>
-              <a href="#!" class="btn btn-secondary lift text-white">
-                About Me
+              <a class="btn btn-secondary lift text-white" data-toggle="smooth-scroll" href="#about">
+                About Me <i class="fe fe-arrow-down-circle"></i>
               </a>
             </div>
 
@@ -58,6 +58,114 @@
         @@include("assets/img/shapes/curves/curve-1.svg")
       </div>
     </div>
+
+    <!-- Software Engineer
+    ================================================== -->
+    <section id="about" class="pt-8 pt-md-11">
+      <div class="container">
+        <div class="row align-items-center justify-content-between">
+          <div class="col-12 col-md-6">
+            
+            <!-- Badge -->
+            <span class="badge badge-primary-desat-soft badge-pill mb-3">
+              <span class="h6 text-uppercase">
+                Software Engineer
+              </span>
+            </span>
+
+            <!-- Heading -->
+            <h2>
+              I apply computer science to<br>
+              <span class="text-primary-desat">solve real world problems</span>.
+            </h2>
+
+            <!-- Text -->
+            <p class="font-size-lg text-muted mb-6 mb-md-0">
+              As a full stack web developer, I collaborated in a Silicon Valley startup to build an online education platform.
+              As a research assistant, I applied NLP and deep learning to analyze the persuasiveness of debate speeches.
+            </p>
+
+          </div>
+          <div class="col-12 col-md-6 col-xl-5">
+
+            <!-- Image -->
+            <img src="assets/img/illustrations/illustration-2.png" alt="..." class="img-fluid mw-md-110 float-left mr-md-6 mb-6 mb-md-0">
+
+          </div>
+        </div> <!-- / .row -->
+      </div> <!-- / .container -->
+    </section>
+
+    <!-- Explorer
+    ================================================== -->
+    <section class="py-8 py-md-11">
+      <div class="container">
+        <div class="row align-items-center justify-content-between">
+          <div class="col-12 col-md-5 order-md-2">
+            
+            <!-- Badge -->
+            <span class="badge badge-success-soft badge-pill mb-3">
+              <span class="h6 text-uppercase">
+                Explorer
+              </span>
+            </span>
+
+            <!-- Heading -->
+            <h2>
+              I enjoy exploring <br>
+              <span class="text-success">the boundless world</span>.
+            </h2>
+
+            <!-- Text -->
+            <p class="font-size-lg text-muted mb-6 mb-md-0">
+              I have traveled to 17 countries across 3 continents. 
+              I have practiced swimming and played table tennis for over ten years. 
+              I have learned Chinese calligraphy and traditional painting since childhood. 
+              Racing, entrepreneurship, literature, debate, skydiving, philosophy...
+              My tried and to-try list is always expanding.
+            </p>
+
+          </div>
+          <div class="col-12 col-md-6 order-md-1">
+
+            <!-- Images -->
+            <div class="row">
+              <div class="col-6 mr-n5">
+                
+                <img src="assets/img/photos/photo-23.jpg" alt="..." class="img-fluid mb-4 rounded" data-aos="fade-right" data-aos-delay="100">
+
+                <img src="assets/img/photos/photo-25.jpg" alt="..." class="img-fluid rounded" data-aos="fade-right" data-aos-delay="150">
+
+              </div>
+              <div class="col-6 mt-8">
+                
+                <img src="assets/img/photos/photo-22.jpg" alt="..." class="img-fluid mb-4 rounded" data-aos="fade-right">
+
+                <img src="assets/img/photos/photo-24.jpg" alt="..." class="img-fluid rounded"  data-aos="fade-right" data-aos-delay="50">
+
+              </div>
+            </div> <!-- / .row -->
+
+          </div>
+        </div> <!-- / .row -->
+      </div> <!-- / .container -->
+    </section>
+
+    <!-- IMAGE
+    ================================================== -->
+    <section data-jarallax data-speed=".8" class="py-14 py-lg-16 jarallax" style="background-image: url(assets/img/covers/cover-8.jpg);">
+
+      <!-- Shape -->
+      <div class="shape shape-top shape-fluid-x svg-shim text-light">
+        @@include("assets/img/shapes/angles/angle-top.svg")
+      </div>
+
+      <!-- Shape -->
+      <div class="shape shape-bottom shape-fluid-x svg-shim text-light">
+        @@include("assets/img/shapes/angles/angle-bottom.svg")
+      </div>
+
+    </section>
 
     <!-- FOOTER
     ================================================== -->
