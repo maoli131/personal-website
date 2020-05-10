@@ -8,6 +8,8 @@ This repository contains the source code of my personal website. My personal web
 
 Anything you want to know about me, you find on my website.
 
+![Website Screenshoot](src/assets/img/screenshots/mainpage.jpg)
+
 ## Technology
 
 Two years ago, in 2018, I used pure HTML/CSS to build the original version of my website. At that time, I had little knowledge about frontend dev and my coding style was bad. As a result, it wasn't quite extensible or maintainable.
