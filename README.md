@@ -36,3 +36,9 @@ To build the production files, run the following:
 $ gulp build
 ```
 The production files will be in the `dist/` folder. 
+
+## Changelog
+
+#### 2020, May 11
+
+Initial website release, featuring five sections of About Me, Education, Experiences, Projects and Articles. Some codes need to be refactored for better modularity and extensibility. In particular, the main page shall be splitted into partials while experiences/projects modals could have unified API for future addition and edition. 
