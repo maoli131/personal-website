@@ -13,9 +13,10 @@ const gulp = require('gulp');
 const gulpif = require('gulp-if');
 const npmdist = require('gulp-npm-dist');
 const replace = require('gulp-replace');
-const sass = require('gulp-sass');
+//const sass = require('gulp-sass');
 const uglify = require('gulp-uglify');
 const useref = require('gulp-useref');
+const sass = require('gulp-sass')(require('sass'));
 
 // Define paths
 const paths = {
