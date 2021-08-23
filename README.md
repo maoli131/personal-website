@@ -39,6 +39,10 @@ The production files will be in the `dist/` folder.
 
 ## Changelog
 
+#### 2021, Aug 23
+
+Fixed npm package security issues. Udpated current infp for Fall Recruitment. This personal website will be under active development throughout my grad program.
+
 #### 2020, May 11
 
 Initial website release, featuring five sections of About Me, Education, Experiences, Projects and Articles. Some codes need to be refactored for better modularity and extensibility. In particular, the main page shall be splitted into partials while experiences/projects modals could have unified API for future addition and edition. 
