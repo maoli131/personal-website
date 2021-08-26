@@ -39,6 +39,10 @@ The production files will be in the `dist/` folder.
 
 ## Changelog
 
+### 2021, Aug 26
+
+Updated resume and LinkedIn profile url. 
+
 #### 2021, Aug 23
 
 Fixed npm package security issues. Udpated current infp for Fall Recruitment. This personal website will be under active development throughout my grad program.
