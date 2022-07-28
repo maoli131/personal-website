@@ -41,7 +41,7 @@ The production files will be in the `dist/` folder.
 
 #### 2022, July 27
 
-Updated resume and articles. Update some essential information shown on main page. 
+Update some essential information shown on main page, including my recent job at Meta. Updated resume and articles. Some work still needs to be done for project section, especially to include my grad research project and advanced upper-div work. 
 
 #### 2021, Aug 26
 
