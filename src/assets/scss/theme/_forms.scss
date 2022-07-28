@@ -60,8 +60,8 @@
 }
 
 .form-label-group > .form-control:not(:placeholder-shown) ~ label {
-  padding-top: ((($input-padding-y * 1.5) - ($font-size-xs * $input-line-height)) / 2);
-  padding-bottom: ((($input-padding-y * 1.5) - ($font-size-xs * $input-line-height)) / 2);
+  padding-top: ((($input-padding-y * 1.5) - ($font-size-xs * $input-line-height)) * 0.5);
+  padding-bottom: ((($input-padding-y * 1.5) - ($font-size-xs * $input-line-height)) * 0.5);
   font-size: $font-size-xs;
 }
 

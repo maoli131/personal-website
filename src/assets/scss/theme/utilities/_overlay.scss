@@ -43,7 +43,7 @@
   .overlay-#{$i * 10} {
 
     &::before {
-      opacity: #{$i / 10};
+      opacity: #{$i * 0.1};
     }
   }
 }

@@ -13,13 +13,13 @@
   .custom-control-label {
 
     &::before {
-      top: (($font-size-base * $line-height-base - $custom-switch-height) / 2);
+      top: (($font-size-base * $line-height-base - $custom-switch-height) * 0.5);
       height: $custom-switch-height;
-      border-radius: $custom-switch-height / 2;
+      border-radius: $custom-switch-height * 0.5;
     }
 
     &::after {
-      top: (($font-size-base * $line-height-base - $custom-switch-height) / 2 + $custom-switch-spacing);
+      top: (($font-size-base * $line-height-base - $custom-switch-height) * 0.5 + $custom-switch-spacing);
       left: $custom-switch-spacing - $custom-control-gutter - $custom-switch-width;
       background-color: $custom-switch-indicator-bg;
     }

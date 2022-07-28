@@ -27,7 +27,7 @@
 
 .flickity-button.previous {
   left: 0;
-  transform: translate(calc(-50% + #{$grid-gutter-width / 4}), -50%);
+  transform: translate(calc(-50% + #{$grid-gutter-width * 0.25}), -50%);
 
   @include media-breakpoint-up(md) {
     transform: translate(-50%, -50%);
@@ -40,7 +40,7 @@
 
 .flickity-button.next {
   right: 0;
-  transform: translate(calc(50% - #{$grid-gutter-width / 4}), -50%);
+  transform: translate(calc(50% - #{$grid-gutter-width * 0.25}), -50%);
 
   @include media-breakpoint-up(md) {
     transform: translate(50%, -50%);

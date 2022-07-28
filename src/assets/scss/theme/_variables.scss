@@ -277,7 +277,7 @@ $custom-file-button-color: $gray-700 !default;
 
 $custom-switch-width: 2.5rem !default;
 $custom-switch-indicator-size: 1rem !default;
-$custom-switch-indicator-border-radius: $custom-switch-indicator-size / 2 !default;
+$custom-switch-indicator-border-radius: $custom-switch-indicator-size * 0.5 !default;
 
 $input-group-addon-bg: $input-bg !default;
 $input-group-addon-color: $input-placeholder-color;
@@ -494,7 +494,7 @@ $btn-soft-bg-opacity: .1 !default;
 // Forms
 
 $custom-switch-height: 1.375rem !default;
-$custom-switch-spacing: ($custom-switch-height - $custom-switch-indicator-size) / 2 !default;
+$custom-switch-spacing: ($custom-switch-height - $custom-switch-indicator-size) * 0.5 !default;
 
 $custom-switch-indicator-bg: $white !default;
 $custom-switch-indicator-active-bg: $white !default;
